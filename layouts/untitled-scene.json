@@ -1,0 +1,1638 @@
+{
+  "b": 209,
+  "disableInputWhenNotFocused": true,
+  "mangledName": "Untitled_32scene",
+  "name": "Untitled scene",
+  "r": 209,
+  "standardSortMethod": true,
+  "stopSoundsOnStartup": true,
+  "title": "",
+  "v": 209,
+  "uiSettings": {
+    "grid": false,
+    "gridType": "rectangular",
+    "gridWidth": 32,
+    "gridHeight": 32,
+    "gridOffsetX": 0,
+    "gridOffsetY": 0,
+    "gridColor": 10401023,
+    "gridAlpha": 0.8,
+    "snap": false,
+    "zoomFactor": 0.4633111824513987,
+    "windowMask": false
+  },
+  "objectsGroups": [],
+  "variables": [
+    {
+      "folded": true,
+      "name": "comboCount",
+      "type": "number",
+      "value": 0
+    },
+    {
+      "folded": true,
+      "name": "efficacyMultiplier",
+      "type": "number",
+      "value": 1
+    }
+  ],
+  "instances": [
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 90,
+      "layer": "Hud",
+      "name": "shieldbutton",
+      "persistentUuid": "c09cb9f9-9452-4485-af2f-3a8db4c06a59",
+      "width": 90,
+      "x": 60,
+      "y": 940,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 90,
+      "layer": "Hud",
+      "name": "swordbutton",
+      "persistentUuid": "404ead09-a6ab-4144-a954-22f764745e51",
+      "width": 90,
+      "x": 60,
+      "y": 840,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 32,
+      "height": 90,
+      "layer": "Hud",
+      "name": "AOEbutton",
+      "persistentUuid": "2a02cd29-4d8f-4eff-b68d-429aaae735ee",
+      "width": 90,
+      "x": 165,
+      "y": 840,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 360,
+      "customSize": true,
+      "depth": 32,
+      "height": 90,
+      "layer": "Hud",
+      "name": "healbutton",
+      "persistentUuid": "d7d4f7a4-559c-4a9e-92d6-4a5c347a370a",
+      "width": 90,
+      "x": 165,
+      "y": 940,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 235,
+      "layer": "Hud",
+      "name": "WoodHud",
+      "persistentUuid": "e2592b01-9ded-40d5-82f6-513d68e3e1f5",
+      "width": 1860,
+      "x": 30,
+      "y": 820,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 117,
+      "layer": "Combo",
+      "name": "addition",
+      "persistentUuid": "9099f8ff-9779-457f-aa7b-bc0dbb5c3092",
+      "width": 300,
+      "x": 336,
+      "y": 917,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 44,
+      "layer": "Combo",
+      "name": "Combocounter",
+      "persistentUuid": "b233aed6-39a2-4391-8a0f-ec362be58c6b",
+      "width": 135,
+      "x": 586,
+      "y": 822,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1080,
+      "layer": "Background",
+      "name": "Background",
+      "persistentUuid": "811986d3-70d8-4b4a-ba98-48ca38de398a",
+      "width": 1920,
+      "x": 0,
+      "y": 0,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "debugText",
+      "persistentUuid": "26c4e9d2-e63c-4404-95e5-c3a09ad86671",
+      "width": 0,
+      "x": 34,
+      "y": 1060,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 103,
+      "layer": "Combo",
+      "name": "Timer",
+      "persistentUuid": "2238d0d7-894a-4281-b22e-f6ff42b3ee17",
+      "width": 165,
+      "x": 1720,
+      "y": 960,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 165,
+      "layer": "Combo",
+      "name": "Hourglass",
+      "persistentUuid": "e857a077-6cc8-4718-87d5-9e26ed52eb09",
+      "width": 165,
+      "x": 1720,
+      "y": 823,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 117,
+      "layer": "Combo",
+      "name": "textinput",
+      "persistentUuid": "5c668b0f-4b9e-43cc-b79c-377734cb8f8e",
+      "width": 221,
+      "x": 648,
+      "y": 912,
+      "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    }
+  ],
+  "objects": [
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "shieldbutton",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "🛡",
+          "font": "CaveatBrush-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 80,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "swordbutton",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "🗡",
+          "font": "CaveatBrush-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 80,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "AOEbutton",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "💣",
+          "font": "CaveatBrush-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "82b8caa7b55342f43b24f169b4374e9224e1a78c05a87f8689663e7c4a6bad69",
+      "name": "healbutton",
+      "tags": "",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 10,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0.2
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Hovered.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 11,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Idle.png",
+          "tiled": true,
+          "topMargin": 7,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "❤️",
+          "font": "CaveatBrush-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 7,
+          "height": 64,
+          "leftMargin": 7,
+          "rightMargin": 7,
+          "texture": "Medieval Button Brown_Pressed.png",
+          "tiled": true,
+          "topMargin": 11,
+          "width": 192
+        }
+      }
+    },
+    {
+      "assetStoreId": "8b0d151969a3e5a63292058f40c8cf899f8498300e85301762f1c144e19b5631",
+      "bottomMargin": 32,
+      "height": 96,
+      "leftMargin": 32,
+      "name": "WoodHud",
+      "rightMargin": 32,
+      "tags": "",
+      "texture": "9patch_Wood Hud_all_32.png",
+      "tiled": true,
+      "topMargin": 32,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 96,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 0,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "addition",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "9 + 10 =",
+      "font": "Enchanted Land.otf",
+      "textAlignment": "right",
+      "characterSize": 90,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "textinput",
+      "tags": "",
+      "type": "TextInput::TextInputObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "initialValue": "",
+        "placeholder": "",
+        "fontResourceName": "Enchanted Land.otf",
+        "fontSize": 90,
+        "inputType": "number",
+        "textColor": "0;0;0",
+        "fillColor": "255;255;255",
+        "fillOpacity": 0,
+        "borderColor": "0;0;0",
+        "borderOpacity": 255,
+        "borderWidth": 1,
+        "readOnly": false,
+        "disabled": false
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Timer",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "string": "15",
+      "font": "Enchanted Land.otf",
+      "textAlignment": "center",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "e01fec5af1b5a397ccba558e254eab485aa54a553128aac4fc4bc24a5e02b594",
+      "name": "Hourglass",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior",
+          "bottomEdgeAnchor": 0,
+          "leftEdgeAnchor": 0,
+          "relativeToOriginalWindowSize": true,
+          "rightEdgeAnchor": 2,
+          "topEdgeAnchor": 0,
+          "useLegacyBottomAndRightAnchors": false
+        }
+      ],
+      "animations": [
+        {
+          "name": "No Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hourglass_No Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 4
+                      },
+                      {
+                        "x": 25,
+                        "y": 4
+                      },
+                      {
+                        "x": 25,
+                        "y": 29
+                      },
+                      {
+                        "x": 7,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Shadow",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "timeBetweenFrames": 0.025,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Hourglass_Shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 7,
+                        "y": 4
+                      },
+                      {
+                        "x": 25,
+                        "y": 4
+                      },
+                      {
+                        "x": 25,
+                        "y": 29
+                      },
+                      {
+                        "x": 7,
+                        "y": 29
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Combocounter",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Combo: 0",
+      "font": "Enchanted Land.otf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "aa_display",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Skada: ",
+      "font": "Enchanted Land.otf",
+      "textAlignment": "center",
+      "characterSize": 80,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    },
+    {
+      "assetStoreId": "94347ece65f425f4e0b5145757435f63f205e52807d05f0a100addff465846fa",
+      "height": 128,
+      "name": "Background",
+      "tags": "",
+      "texture": "4be9859cceef6c04f89a8d9b01040ed390c02c7f371626a7cfe0376e9ac53589_tiled_Ground4.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 128,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "debugText",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Debug: ",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 20,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      }
+    }
+  ],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "UIpadding",
+            "=",
+            "30"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "UItop",
+            "=",
+            "455"
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Combo\""
+          ]
+        },
+        {
+          "type": {
+            "value": "SetGameResolutionSize"
+          },
+          "parameters": [
+            "",
+            "1920",
+            "1080"
+          ]
+        },
+        {
+          "type": {
+            "value": "SetWindowSize"
+          },
+          "parameters": [
+            "",
+            "1280",
+            "720",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CenterWindow"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Always"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Timer",
+            "=",
+            "ToString(15 - round(TimerElapsedTime(\"Timer\")))"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetWidth"
+          },
+          "parameters": [
+            "WoodHud",
+            "Resizable",
+            "=",
+            "SceneWindowWidth() - (2 * Variable(UIpadding))"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "Combocounter",
+            "=",
+            "SceneWindowWidth() / 2 - Combocounter.Width() / 2"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "addition",
+            "=",
+            "SceneWindowWidth() / 2 - addition.Width()"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreX"
+          },
+          "parameters": [
+            "textinput",
+            "=",
+            "SceneWindowWidth() / 2 + 10"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "debugText",
+            "=",
+            "ToString(SceneVariableLastNumber(c))"
+          ]
+        },
+        {
+          "type": {
+            "value": "ResizableCapability::ResizableBehavior::SetSize"
+          },
+          "parameters": [
+            "Background",
+            "Resizable",
+            "SceneWindowWidth()",
+            "SceneWindowHeight()"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+          },
+          "parameters": [
+            "swordbutton",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ShowLayer"
+          },
+          "parameters": [
+            "",
+            "\"Combo\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "comboCount",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "swordbutton",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "shieldbutton",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "AOEbutton",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "healbutton",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariablePushNumber"
+          },
+          "parameters": [
+            "b",
+            "RandomInRange(1, 100)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariablePushNumber"
+          },
+          "parameters": [
+            "a",
+            "RandomInRange(1, 100)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariablePushNumber"
+          },
+          "parameters": [
+            "c",
+            "SceneVariableLastNumber(a) + SceneVariableLastNumber(b)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "addition",
+            "=",
+            "ToString(SceneVariableLastNumber(a))+ \" + \" + ToString(SceneVariableLastNumber(b)) + \" = \""
+          ]
+        },
+        {
+          "type": {
+            "value": "ResetTimer"
+          },
+          "parameters": [
+            "",
+            "\"Timer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "0.001"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextInput::TextInputObject::Focus"
+          },
+          "parameters": [
+            "textinput"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "TextInput::TextInputObject::Text"
+          },
+          "parameters": [
+            "textinput",
+            "=",
+            "ToString(SceneVariableLastNumber(c))"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "SceneVariablePushNumber"
+          },
+          "parameters": [
+            "a",
+            "RandomInRange(1, 100)"
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariablePushNumber"
+          },
+          "parameters": [
+            "b",
+            "RandomInRange(1, 100)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "addition",
+            "=",
+            "ToString(SceneVariableLastNumber(a))+ \" + \" + ToString(SceneVariableLastNumber(b)) + \" = \""
+          ]
+        },
+        {
+          "type": {
+            "value": "SceneVariablePushNumber"
+          },
+          "parameters": [
+            "c",
+            "SceneVariableLastNumber(a) + SceneVariableLastNumber(b)"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextInput::TextInputObject::SetText"
+          },
+          "parameters": [
+            "textinput",
+            "=",
+            "\"\""
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "comboCount",
+            "+",
+            "1"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Combocounter",
+            "=",
+            "\"Combo: \" + ToString(Variable(comboCount))"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "CompareTimer"
+          },
+          "parameters": [
+            "",
+            "\"Timer\"",
+            ">=",
+            "15"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PauseTimer"
+          },
+          "parameters": [
+            "",
+            "\"Timer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextInput::TextInputObject::SetDisabled"
+          },
+          "parameters": [
+            "textinput",
+            "yes"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "efficacyMultiplier",
+            "=",
+            "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "efficacyMultiplier",
+            "=",
+            "Variable(comboCount) / 3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Create"
+          },
+          "parameters": [
+            "",
+            "aa_display",
+            "0",
+            "0",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "aa_display",
+            "=",
+            "\"Skada: \" + ToString(roundTo(Variable(efficacyMultiplier), 2))"
+          ]
+        },
+        {
+          "type": {
+            "value": "MettreXY"
+          },
+          "parameters": [
+            "aa_display",
+            "=",
+            "SceneWindowWidth() / 2 - aa_display.Width() / 2",
+            "=",
+            "SceneWindowHeight() / 2 - aa_display.Height()"
+          ]
+        },
+        {
+          "type": {
+            "value": "Wait"
+          },
+          "parameters": [
+            "3"
+          ]
+        },
+        {
+          "type": {
+            "value": "Delete"
+          },
+          "parameters": [
+            "aa_display",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextObject::String"
+          },
+          "parameters": [
+            "Combocounter",
+            "=",
+            "\"Combo: 0\""
+          ]
+        },
+        {
+          "type": {
+            "value": "RemoveTimer"
+          },
+          "parameters": [
+            "",
+            "\"Timer\""
+          ]
+        },
+        {
+          "type": {
+            "value": "HideLayer"
+          },
+          "parameters": [
+            "",
+            "\"Combo\""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "swordbutton",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "healbutton",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "AOEbutton",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+          },
+          "parameters": [
+            "shieldbutton",
+            "yes",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "TextInput::TextInputObject::SetDisabled"
+          },
+          "parameters": [
+            "textinput",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "TextInput::TextInputObject::SetText"
+          },
+          "parameters": [
+            "textinput",
+            "=",
+            "\"\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "f"
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ModVarScene"
+          },
+          "parameters": [
+            "else",
+            "=",
+            "1"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "IsFullScreen"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetFullScreen"
+              },
+              "parameters": [
+                "",
+                "no",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "else",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::CompareNumbers"
+              },
+              "parameters": [
+                "Variable(else)",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "inverted": true,
+                "value": "IsFullScreen"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetFullScreen"
+              },
+              "parameters": [
+                "",
+                "yes",
+                ""
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "layers": [
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": true,
+      "name": "Background",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": true,
+      "name": "Hud",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Combo",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
+    },
+    {
+      "ambientLightColorB": 0,
+      "ambientLightColorG": 8042920,
+      "ambientLightColorR": 16,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [
+        {
+          "defaultSize": true,
+          "defaultViewport": true,
+          "height": 0,
+          "viewportBottom": 1,
+          "viewportLeft": 0,
+          "viewportRight": 1,
+          "viewportTop": 0,
+          "width": 0
+        }
+      ],
+      "effects": []
+    }
+  ],
+  "behaviorsSharedData": [
+    {
+      "name": "Anchor",
+      "type": "AnchorBehavior::AnchorBehavior"
+    },
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    }
+  ]
+}

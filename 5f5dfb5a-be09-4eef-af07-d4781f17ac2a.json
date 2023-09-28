@@ -1,0 +1,221 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "antialiasingMode": "MSAA",
+    "antialisingEnabledOnMobile": false,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": false,
+    "projectUuid": "ff33c0e9-51a6-41c6-9ff4-24151031be11",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "hud test implementation",
+    "description": "",
+    "author": "",
+    "windowWidth": 1920,
+    "windowHeight": 1080,
+    "latestCompilationDirectory": "",
+    "maxFPS": 60,
+    "minFPS": 30,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "watermark": {
+      "placement": "bottom-left",
+      "showWatermark": true
+    },
+    "authorIds": [],
+    "authorUsernames": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Hovered.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Hovered.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/f050eea8c9631c6b163779937225dd43bb432edf6b66dbaf64413e005ce5fbed_Medieval Button Brown_Hovered.png",
+          "name": "Medieval Button Brown_Hovered.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Idle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Idle.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/236403e4a45a3c7435d21f15ebcf3ab54b83e7389964d6999b0f82a3a957056a_Medieval Button Brown_Idle.png",
+          "name": "Medieval Button Brown_Idle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medieval Button Brown_Pressed.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medieval Button Brown_Pressed.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/d9240cf31b0e332a890cdbe7658eef81c587545df6673b86565c9141a23bc195_Medieval Button Brown_Pressed.png",
+          "name": "Medieval Button Brown_Pressed.png"
+        }
+      },
+      {
+        "file": "assets/CaveatBrush-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "CaveatBrush-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Menu buttons/3d58de3ba4305c72907c2b4367cf859232313400b5c22da139d35b13d2273d40_CaveatBrush-Regular.ttf",
+          "name": "CaveatBrush-Regular.ttf"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/9patch_Wood Hud_all_32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "9patch_Wood Hud_all_32.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Western FPS 2D/Hud/ed605cc2e33964e0b96fb7db7c8820117a7f385d5c67f9eb68babec4ae91d805_9patch_Wood Hud_all_32.png",
+          "name": "9patch_Wood Hud_all_32.png"
+        }
+      },
+      {
+        "file": "assets/DelaGothicOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "3f8b9fdbb33ea7b099f39802c5d019a94895075380de98a6d93c677da94e111a_DelaGothicOne-Regular.ttf",
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/Japanese/3f8b9fdbb33ea7b099f39802c5d019a94895075380de98a6d93c677da94e111a_DelaGothicOne-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hourglass_No Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hourglass_No Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/9694318a0d26b491ee779a00a6b418623030c2d58a618fd7298d271ef44cfe5e_Hourglass_No Shadow.png",
+          "name": "Hourglass_No Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Hourglass_Shadow.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Hourglass_Shadow.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/d628388642dfe60833e5b2f523b0e908b1336feddbb35e2b4eddb6951262f636_Hourglass_Shadow.png",
+          "name": "Hourglass_Shadow.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Grass7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "tiled_Grass7.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/490584f8c27e33df9b761fb334a7529c56ba733f29785c18f9fa65c5dab48bc9_tiled_Grass7.png",
+          "name": "tiled_Grass7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/tiled_Ground4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4be9859cceef6c04f89a8d9b01040ed390c02c7f371626a7cfe0376e9ac53589_tiled_Ground4.png",
+        "smoothed": true,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/4be9859cceef6c04f89a8d9b01040ed390c02c7f371626a7cfe0376e9ac53589_tiled_Ground4.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "file": "Enchanted Land.otf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Enchanted Land.otf",
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/untitled-scene"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
