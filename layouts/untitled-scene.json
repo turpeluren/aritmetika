@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4633111824513987,
+    "zoomFactor": 0.546875,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -34,6 +34,30 @@
       "name": "efficacyMultiplier",
       "type": "number",
       "value": 1
+    },
+    {
+      "folded": true,
+      "name": "aa_value",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "folded": true,
+      "name": "aoe_value",
+      "type": "number",
+      "value": 50
+    },
+    {
+      "folded": true,
+      "name": "heal_value",
+      "type": "number",
+      "value": 100
+    },
+    {
+      "folded": true,
+      "name": "def_value",
+      "type": "number",
+      "value": 100
     }
   ],
   "instances": [
@@ -41,14 +65,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 90,
-      "layer": "Hud",
+      "height": 110,
+      "layer": "",
       "name": "shieldbutton",
       "persistentUuid": "c09cb9f9-9452-4485-af2f-3a8db4c06a59",
-      "width": 90,
-      "x": 60,
-      "y": 940,
-      "zOrder": 1,
+      "width": 110,
+      "x": 80,
+      "y": 540,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -57,14 +81,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 90,
-      "layer": "Hud",
+      "height": 110,
+      "layer": "",
       "name": "swordbutton",
       "persistentUuid": "404ead09-a6ab-4144-a954-22f764745e51",
-      "width": 90,
-      "x": 60,
-      "y": 840,
-      "zOrder": 1,
+      "width": 110,
+      "x": 80,
+      "y": 410,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -73,14 +97,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 32,
-      "height": 90,
-      "layer": "Hud",
+      "height": 110,
+      "layer": "",
       "name": "AOEbutton",
       "persistentUuid": "2a02cd29-4d8f-4eff-b68d-429aaae735ee",
-      "width": 90,
-      "x": 165,
-      "y": 840,
-      "zOrder": 1,
+      "width": 110,
+      "x": 220,
+      "y": 410,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -89,14 +113,14 @@
       "angle": 360,
       "customSize": true,
       "depth": 32,
-      "height": 90,
-      "layer": "Hud",
+      "height": 110,
+      "layer": "",
       "name": "healbutton",
       "persistentUuid": "d7d4f7a4-559c-4a9e-92d6-4a5c347a370a",
-      "width": 90,
-      "x": 165,
-      "y": 940,
-      "zOrder": 1,
+      "width": 110,
+      "x": 220,
+      "y": 540,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -105,61 +129,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 235,
-      "layer": "Hud",
+      "height": 280,
+      "layer": "",
       "name": "WoodHud",
       "persistentUuid": "e2592b01-9ded-40d5-82f6-513d68e3e1f5",
-      "width": 1860,
-      "x": 30,
-      "y": 820,
-      "zOrder": 0,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 117,
-      "layer": "Combo",
-      "name": "addition",
-      "persistentUuid": "9099f8ff-9779-457f-aa7b-bc0dbb5c3092",
-      "width": 300,
-      "x": 336,
-      "y": 917,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 44,
-      "layer": "Combo",
-      "name": "Combocounter",
-      "persistentUuid": "b233aed6-39a2-4391-8a0f-ec362be58c6b",
-      "width": 135,
-      "x": 586,
-      "y": 822,
-      "zOrder": 1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 1080,
-      "layer": "Background",
-      "name": "Background",
-      "persistentUuid": "811986d3-70d8-4b4a-ba98-48ca38de398a",
-      "width": 1920,
-      "x": 0,
-      "y": 0,
+      "width": 1180,
+      "x": 50,
+      "y": 390,
       "zOrder": 0,
       "numberProperties": [],
       "stringProperties": [],
@@ -170,28 +146,27 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "debugText",
-      "persistentUuid": "26c4e9d2-e63c-4404-95e5-c3a09ad86671",
+      "name": "uppgift",
+      "persistentUuid": "9099f8ff-9779-457f-aa7b-bc0dbb5c3092",
       "width": 0,
-      "x": 34,
-      "y": 1060,
-      "zOrder": 9,
+      "x": 1663,
+      "y": 441,
+      "zOrder": 4,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 103,
-      "layer": "Combo",
+      "customSize": false,
+      "height": 0,
+      "layer": "",
       "name": "Timer",
-      "persistentUuid": "2238d0d7-894a-4281-b22e-f6ff42b3ee17",
-      "width": 165,
-      "x": 1720,
-      "y": 960,
-      "zOrder": 1,
+      "persistentUuid": "2362a316-a50c-4202-8dbe-888fb8fe2987",
+      "width": 0,
+      "x": 1810,
+      "y": 166,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -199,31 +174,30 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 165,
-      "layer": "Combo",
+      "depth": 0,
+      "height": 110,
+      "layer": "",
       "name": "Hourglass",
-      "persistentUuid": "e857a077-6cc8-4718-87d5-9e26ed52eb09",
-      "width": 165,
-      "x": 1720,
-      "y": 823,
-      "zOrder": 0,
+      "persistentUuid": "062807d6-5908-4482-bd04-fb8317b91f08",
+      "width": 100,
+      "x": 1645,
+      "y": 259,
+      "zOrder": 6,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 117,
-      "layer": "Combo",
-      "name": "textinput",
-      "persistentUuid": "5c668b0f-4b9e-43cc-b79c-377734cb8f8e",
-      "width": 221,
-      "x": 648,
-      "y": 912,
-      "zOrder": 1,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Combocounter",
+      "persistentUuid": "b233aed6-39a2-4391-8a0f-ec362be58c6b",
+      "width": 0,
+      "x": 1002,
+      "y": 410,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -403,7 +377,7 @@
           "string": "💣",
           "font": "CaveatBrush-Regular.ttf",
           "textAlignment": "center",
-          "characterSize": 60,
+          "characterSize": 80,
           "color": {
             "b": 0,
             "g": 0,
@@ -467,7 +441,7 @@
           "string": "❤️",
           "font": "CaveatBrush-Regular.ttf",
           "textAlignment": "center",
-          "characterSize": 60,
+          "characterSize": 80,
           "color": {
             "b": 0,
             "g": 0,
@@ -501,24 +475,13 @@
       "width": 96,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 0,
-          "leftEdgeAnchor": 0,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 0,
-          "topEdgeAnchor": 0,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ]
+      "behaviors": []
     },
     {
       "assetStoreId": "",
       "bold": false,
       "italic": false,
-      "name": "addition",
+      "name": "uppgift",
       "smoothed": true,
       "tags": "",
       "type": "TextObject::Text",
@@ -526,10 +489,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "9 + 10 =",
-      "font": "Enchanted Land.otf",
-      "textAlignment": "right",
-      "characterSize": 90,
+      "string": "9 + 10",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 40,
       "color": {
         "b": 0,
         "g": 0,
@@ -547,12 +510,12 @@
       "content": {
         "initialValue": "",
         "placeholder": "",
-        "fontResourceName": "Enchanted Land.otf",
-        "fontSize": 90,
-        "inputType": "number",
+        "fontResourceName": "3f8b9fdbb33ea7b099f39802c5d019a94895075380de98a6d93c677da94e111a_DelaGothicOne-Regular.ttf",
+        "fontSize": 40,
+        "inputType": "text",
         "textColor": "0;0;0",
         "fillColor": "255;255;255",
-        "fillOpacity": 0,
+        "fillOpacity": 255,
         "borderColor": "0;0;0",
         "borderOpacity": 255,
         "borderWidth": 1,
@@ -571,22 +534,11 @@
       "underlined": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 0,
-          "leftEdgeAnchor": 0,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 2,
-          "topEdgeAnchor": 0,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ],
+      "behaviors": [],
       "string": "15",
-      "font": "Enchanted Land.otf",
-      "textAlignment": "center",
-      "characterSize": 80,
+      "font": "3f8b9fdbb33ea7b099f39802c5d019a94895075380de98a6d93c677da94e111a_DelaGothicOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 40,
       "color": {
         "b": 0,
         "g": 0,
@@ -602,18 +554,7 @@
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior",
-          "bottomEdgeAnchor": 0,
-          "leftEdgeAnchor": 0,
-          "relativeToOriginalWindowSize": true,
-          "rightEdgeAnchor": 2,
-          "topEdgeAnchor": 0,
-          "useLegacyBottomAndRightAnchors": false
-        }
-      ],
+      "behaviors": [],
       "animations": [
         {
           "name": "No Shadow",
@@ -726,8 +667,8 @@
       "effects": [],
       "behaviors": [],
       "string": "Combo: 0",
-      "font": "Enchanted Land.otf",
-      "textAlignment": "center",
+      "font": "",
+      "textAlignment": "left",
       "characterSize": 40,
       "color": {
         "b": 0,
@@ -747,44 +688,10 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "Skada: ",
-      "font": "Enchanted Land.otf",
-      "textAlignment": "center",
-      "characterSize": 80,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "assetStoreId": "94347ece65f425f4e0b5145757435f63f205e52807d05f0a100addff465846fa",
-      "height": 128,
-      "name": "Background",
-      "tags": "",
-      "texture": "4be9859cceef6c04f89a8d9b01040ed390c02c7f371626a7cfe0376e9ac53589_tiled_Ground4.png",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 128,
-      "variables": [],
-      "effects": [],
-      "behaviors": []
-    },
-    {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "debugText",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Debug: ",
-      "font": "",
+      "string": "Text",
+      "font": "CaveatBrush-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 20,
+      "characterSize": 40,
       "color": {
         "b": 0,
         "g": 0,
@@ -805,778 +712,1344 @@
           ]
         }
       ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "UIpadding",
-            "=",
-            "30"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "UItop",
-            "=",
-            "455"
-          ]
-        },
-        {
-          "type": {
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"Combo\""
-          ]
-        },
-        {
-          "type": {
-            "value": "SetGameResolutionSize"
-          },
-          "parameters": [
-            "",
-            "1920",
-            "1080"
-          ]
-        },
-        {
-          "type": {
-            "value": "SetWindowSize"
-          },
-          "parameters": [
-            "",
-            "1280",
-            "720",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "CenterWindow"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ]
+      "actions": []
     },
     {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Always"
-          },
-          "parameters": [
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "Timer",
-            "=",
-            "ToString(15 - round(TimerElapsedTime(\"Timer\")))"
-          ]
-        },
-        {
-          "type": {
-            "value": "ResizableCapability::ResizableBehavior::SetWidth"
-          },
-          "parameters": [
-            "WoodHud",
-            "Resizable",
-            "=",
-            "SceneWindowWidth() - (2 * Variable(UIpadding))"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreX"
-          },
-          "parameters": [
-            "Combocounter",
-            "=",
-            "SceneWindowWidth() / 2 - Combocounter.Width() / 2"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreX"
-          },
-          "parameters": [
-            "addition",
-            "=",
-            "SceneWindowWidth() / 2 - addition.Width()"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreX"
-          },
-          "parameters": [
-            "textinput",
-            "=",
-            "SceneWindowWidth() / 2 + 10"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "debugText",
-            "=",
-            "ToString(SceneVariableLastNumber(c))"
-          ]
-        },
-        {
-          "type": {
-            "value": "ResizableCapability::ResizableBehavior::SetSize"
-          },
-          "parameters": [
-            "Background",
-            "Resizable",
-            "SceneWindowWidth()",
-            "SceneWindowHeight()"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
-          },
-          "parameters": [
-            "swordbutton",
-            ""
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ShowLayer"
-          },
-          "parameters": [
-            "",
-            "\"Combo\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "comboCount",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-          },
-          "parameters": [
-            "swordbutton",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-          },
-          "parameters": [
-            "shieldbutton",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-          },
-          "parameters": [
-            "AOEbutton",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-          },
-          "parameters": [
-            "healbutton",
-            "",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneVariablePushNumber"
-          },
-          "parameters": [
-            "b",
-            "RandomInRange(1, 100)"
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneVariablePushNumber"
-          },
-          "parameters": [
-            "a",
-            "RandomInRange(1, 100)"
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneVariablePushNumber"
-          },
-          "parameters": [
-            "c",
-            "SceneVariableLastNumber(a) + SceneVariableLastNumber(b)"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "addition",
-            "=",
-            "ToString(SceneVariableLastNumber(a))+ \" + \" + ToString(SceneVariableLastNumber(b)) + \" = \""
-          ]
-        },
-        {
-          "type": {
-            "value": "ResetTimer"
-          },
-          "parameters": [
-            "",
-            "\"Timer\""
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "0.001"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextInput::TextInputObject::Focus"
-          },
-          "parameters": [
-            "textinput"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "TextInput::TextInputObject::Text"
-          },
-          "parameters": [
-            "textinput",
-            "=",
-            "ToString(SceneVariableLastNumber(c))"
-          ]
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "SceneVariablePushNumber"
-          },
-          "parameters": [
-            "a",
-            "RandomInRange(1, 100)"
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneVariablePushNumber"
-          },
-          "parameters": [
-            "b",
-            "RandomInRange(1, 100)"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "addition",
-            "=",
-            "ToString(SceneVariableLastNumber(a))+ \" + \" + ToString(SceneVariableLastNumber(b)) + \" = \""
-          ]
-        },
-        {
-          "type": {
-            "value": "SceneVariablePushNumber"
-          },
-          "parameters": [
-            "c",
-            "SceneVariableLastNumber(a) + SceneVariableLastNumber(b)"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextInput::TextInputObject::SetText"
-          },
-          "parameters": [
-            "textinput",
-            "=",
-            "\"\""
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "comboCount",
-            "+",
-            "1"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "Combocounter",
-            "=",
-            "\"Combo: \" + ToString(Variable(comboCount))"
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "CompareTimer"
-          },
-          "parameters": [
-            "",
-            "\"Timer\"",
-            ">=",
-            "15"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "PauseTimer"
-          },
-          "parameters": [
-            "",
-            "\"Timer\""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextInput::TextInputObject::SetDisabled"
-          },
-          "parameters": [
-            "textinput",
-            "yes"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "efficacyMultiplier",
-            "=",
-            "0"
-          ]
-        },
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "efficacyMultiplier",
-            "=",
-            "Variable(comboCount) / 3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Create"
-          },
-          "parameters": [
-            "",
-            "aa_display",
-            "0",
-            "0",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "aa_display",
-            "=",
-            "\"Skada: \" + ToString(roundTo(Variable(efficacyMultiplier), 2))"
-          ]
-        },
-        {
-          "type": {
-            "value": "MettreXY"
-          },
-          "parameters": [
-            "aa_display",
-            "=",
-            "SceneWindowWidth() / 2 - aa_display.Width() / 2",
-            "=",
-            "SceneWindowHeight() / 2 - aa_display.Height()"
-          ]
-        },
-        {
-          "type": {
-            "value": "Wait"
-          },
-          "parameters": [
-            "3"
-          ]
-        },
-        {
-          "type": {
-            "value": "Delete"
-          },
-          "parameters": [
-            "aa_display",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextObject::String"
-          },
-          "parameters": [
-            "Combocounter",
-            "=",
-            "\"Combo: 0\""
-          ]
-        },
-        {
-          "type": {
-            "value": "RemoveTimer"
-          },
-          "parameters": [
-            "",
-            "\"Timer\""
-          ]
-        },
-        {
-          "type": {
-            "value": "HideLayer"
-          },
-          "parameters": [
-            "",
-            "\"Combo\""
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-          },
-          "parameters": [
-            "swordbutton",
-            "yes",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-          },
-          "parameters": [
-            "healbutton",
-            "yes",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-          },
-          "parameters": [
-            "AOEbutton",
-            "yes",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "PanelSpriteButton::PanelSpriteButton::Activate"
-          },
-          "parameters": [
-            "shieldbutton",
-            "yes",
-            ""
-          ]
-        },
-        {
-          "type": {
-            "value": "TextInput::TextInputObject::SetDisabled"
-          },
-          "parameters": [
-            "textinput",
-            "no"
-          ]
-        },
-        {
-          "type": {
-            "value": "TextInput::TextInputObject::SetText"
-          },
-          "parameters": [
-            "textinput",
-            "=",
-            "\"\""
-          ]
-        }
-      ]
-    },
-    {
-      "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [
-        {
-          "type": {
-            "value": "KeyPressed"
-          },
-          "parameters": [
-            "",
-            "f"
-          ]
-        },
-        {
-          "type": {
-            "value": "BuiltinCommonInstructions::Once"
-          },
-          "parameters": []
-        }
-      ],
-      "actions": [
-        {
-          "type": {
-            "value": "ModVarScene"
-          },
-          "parameters": [
-            "else",
-            "=",
-            "1"
-          ]
-        }
-      ],
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "name": "Attack phase",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "sword, + , aa",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "IsFullScreen"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SetFullScreen"
-              },
-              "parameters": [
-                "",
-                "no",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "swordbutton",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "uppgift",
+                    "500",
+                    "600",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "swordbutton",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "shieldbutton",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "healbutton",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "AOEbutton",
+                    "no",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "textinput",
+                    "200",
+                    "300",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "aa_nr1",
+                    "RandomInRange(1, 100)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "aa_nr2",
+                    "RandomInRange(1, 100)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "aa_ans",
+                    "SceneVariableLastNumber(aa_nr1) + SceneVariableLastNumber(aa_nr2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "uppgift",
+                    "=",
+                    "ToString(SceneVariableLastNumber(aa_nr1))+ \" + \" + ToString(SceneVariableLastNumber(aa_nr2))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Hourglass",
+                    "1070",
+                    "10",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Timer",
+                    "1160",
+                    "42",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "Hourglass",
+                    "Resizable",
+                    "110",
+                    "110"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Timer\""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "value": "ModVarScene"
-              },
-              "parameters": [
-                "else",
-                "=",
-                "0"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Always"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Timer",
+                    "=",
+                    "ToString(15 - round(TimerElapsedTime(\"Timer\")))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextInput::TextInputObject::Text"
+                  },
+                  "parameters": [
+                    "textinput",
+                    "=",
+                    "ToString(SceneVariableLastNumber(aa_ans))"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "aa_nr1",
+                    "RandomInRange(1, 100)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "aa_nr2",
+                    "RandomInRange(1, 100)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "uppgift",
+                    "=",
+                    "ToString(SceneVariableLastNumber(aa_nr1))+ \" + \" + ToString(SceneVariableLastNumber(aa_nr2))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "aa_ans",
+                    "SceneVariableLastNumber(aa_nr1) + SceneVariableLastNumber(aa_nr2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextInput::TextInputObject::SetText"
+                  },
+                  "parameters": [
+                    "textinput",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "comboCount",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Combocounter",
+                    "=",
+                    "\"Combo: \" + ToString(Variable(comboCount))"
+                  ]
+                }
               ]
             }
-          ]
+          ],
+          "parameters": []
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Defens subrtraction",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "BuiltinCommonInstructions::CompareNumbers"
-              },
-              "parameters": [
-                "Variable(else)",
-                "=",
-                "1"
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "shieldbutton",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "uppgift",
+                    "500",
+                    "600",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "shieldbutton",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "swordbutton",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "AOEbutton",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "healbutton",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "textinput",
+                    "200",
+                    "300",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "def_nr1",
+                    "RandomInRange(50, 100)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "def_nr2",
+                    "RandomInRange(1, 50)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "def_ans",
+                    "SceneVariableLastNumber(def_nr1) - SceneVariableLastNumber(def_nr2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "uppgift",
+                    "=",
+                    "ToString(SceneVariableLastNumber(def_nr1))+ \" - \" + ToString(SceneVariableLastNumber(def_nr2))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Hourglass",
+                    "1070",
+                    "10",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Timer",
+                    "1160",
+                    "42",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "Hourglass",
+                    "Resizable",
+                    "110",
+                    "110"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Timer\""
+                  ]
+                }
               ]
             },
             {
-              "type": {
-                "inverted": true,
-                "value": "IsFullScreen"
-              },
-              "parameters": [
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Always"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Timer",
+                    "=",
+                    "ToString(15 - round(TimerElapsedTime(\"Timer\")))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextInput::TextInputObject::Text"
+                  },
+                  "parameters": [
+                    "textinput",
+                    "=",
+                    "ToString(SceneVariableLastNumber(def_ans))"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "def_nr1",
+                    "RandomInRange(50, 100)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "def_nr2",
+                    "RandomInRange(1, 50)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "uppgift",
+                    "=",
+                    "ToString(SceneVariableLastNumber(def_nr1))+ \" - \" + ToString(SceneVariableLastNumber(def_nr2))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "def_ans",
+                    "SceneVariableLastNumber(def_nr1) - SceneVariableLastNumber(def_nr2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextInput::TextInputObject::SetText"
+                  },
+                  "parameters": [
+                    "textinput",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "comboCount",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Combocounter",
+                    "=",
+                    "\"Combo: \" + ToString(Variable(comboCount))"
+                  ]
+                }
               ]
             }
           ],
-          "actions": [
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "AOE, multiplikation",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
             {
-              "type": {
-                "value": "SetFullScreen"
-              },
-              "parameters": [
-                "",
-                "yes",
-                ""
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "AOEbutton",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "shieldbutton",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "swordbutton",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "AOEbutton",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "healbutton",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "uppgift",
+                    "500",
+                    "600",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "textinput",
+                    "200",
+                    "300",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "AOE_nr1",
+                    "RandomInRange(1, 10)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "AOE_nr2",
+                    "RandomInRange(1, 10)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "AOE_ans",
+                    "SceneVariableLastNumber(AOE_nr1) * SceneVariableLastNumber(AOE_nr2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "uppgift",
+                    "=",
+                    "ToString(SceneVariableLastNumber(AOE_nr1))+ \" * \" + ToString(SceneVariableLastNumber(AOE_nr2))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Hourglass",
+                    "1070",
+                    "10",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Timer",
+                    "1160",
+                    "42",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "Hourglass",
+                    "Resizable",
+                    "110",
+                    "110"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Timer\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Always"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Timer",
+                    "=",
+                    "ToString(15 - round(TimerElapsedTime(\"Timer\")))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextInput::TextInputObject::Text"
+                  },
+                  "parameters": [
+                    "textinput",
+                    "=",
+                    "ToString(SceneVariableLastNumber(AOE_ans))"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "AOE_nr1",
+                    "RandomInRange(1, 10)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "AOE_nr2",
+                    "RandomInRange(1, 10)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextInput::TextInputObject::SetText"
+                  },
+                  "parameters": [
+                    "textinput",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "uppgift",
+                    "=",
+                    "ToString(SceneVariableLastNumber(AOE_nr1))+ \" * \" + ToString(SceneVariableLastNumber(AOE_nr2))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "AOE_ans",
+                    "SceneVariableLastNumber(AOE_nr1) * SceneVariableLastNumber(AOE_nr2)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "comboCount",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Combocounter",
+                    "=",
+                    "\"Combo: \" + ToString(Variable(comboCount))"
+                  ]
+                }
               ]
             }
-          ]
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "heal, division",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::IsClicked"
+                  },
+                  "parameters": [
+                    "healbutton",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "shieldbutton",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "swordbutton",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "AOEbutton",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "healbutton",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "uppgift",
+                    "500",
+                    "600",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "textinput",
+                    "200",
+                    "300",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "heal_nr2",
+                    "RandomInRange(1, 10)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "heal_ans",
+                    "RandomInRange(1, 10)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "heal_nr1",
+                    "SceneVariableLastNumber(heal_nr2) * SceneVariableLastNumber(heal_ans)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "uppgift",
+                    "=",
+                    "ToString(SceneVariableLastNumber(heal_nr1))+ \" / \" + ToString(SceneVariableLastNumber(heal_nr2))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Hourglass",
+                    "1070",
+                    "10",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Timer",
+                    "1160",
+                    "42",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetSize"
+                  },
+                  "parameters": [
+                    "Hourglass",
+                    "Resizable",
+                    "110",
+                    "110"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Timer\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Always"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Timer",
+                    "=",
+                    "ToString(15 - round(TimerElapsedTime(\"Timer\")))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "TextInput::TextInputObject::Text"
+                  },
+                  "parameters": [
+                    "textinput",
+                    "=",
+                    "ToString(SceneVariableLastNumber(heal_ans))"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "heal_nr2",
+                    "RandomInRange(1, 10)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "heal_ans",
+                    "RandomInRange(1, 10)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariablePushNumber"
+                  },
+                  "parameters": [
+                    "heal_nr1",
+                    "SceneVariableLastNumber(heal_nr2) * SceneVariableLastNumber(heal_ans)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextInput::TextInputObject::SetText"
+                  },
+                  "parameters": [
+                    "textinput",
+                    "=",
+                    "\"\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "uppgift",
+                    "=",
+                    "ToString(SceneVariableLastNumber(heal_nr1))+ \" / \" + ToString(SceneVariableLastNumber(heal_nr2))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "comboCount",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Combocounter",
+                    "=",
+                    "\"Combo: \" + ToString(Variable(comboCount))"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Time.end",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Timer\"",
+                    ">=",
+                    "15"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "RemoveTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Timer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "swordbutton",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "shieldbutton",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "AOEbutton",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteButton::PanelSpriteButton::Activate"
+                  },
+                  "parameters": [
+                    "healbutton",
+                    "yes",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "efficacyMultiplier",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "efficacyMultiplier",
+                    "+",
+                    "0.3 * Variable(comboCount)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "Combocounter",
+                    "=",
+                    "\"Combo: \""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Timer",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Hourglass",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "textinput",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "uppgift",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "aa_display",
+                    "440",
+                    "200",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::String"
+                  },
+                  "parameters": [
+                    "aa_display",
+                    "=",
+                    "\"Effekt: \" + ToString(round(100 * Variable(efficacyMultiplier)))"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "aa_display",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "comboCount",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
         }
-      ]
+      ],
+      "parameters": []
     }
   ],
   "layers": [
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": true,
-      "name": "Background",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
-          "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
-          },
-          "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
-          },
-          "booleanParameters": {}
-        }
-      ]
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": true,
-      "name": "Hud",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
-          "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
-          },
-          "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
-          },
-          "booleanParameters": {}
-        }
-      ]
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "Combo",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": [
-        {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
-          "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
-          },
-          "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
-          },
-          "booleanParameters": {}
-        }
-      ]
-    },
     {
       "ambientLightColorB": 0,
       "ambientLightColorG": 8042920,
@@ -1606,10 +2079,6 @@
     }
   ],
   "behaviorsSharedData": [
-    {
-      "name": "Anchor",
-      "type": "AnchorBehavior::AnchorBehavior"
-    },
     {
       "name": "Animation",
       "type": "AnimatableCapability::AnimatableBehavior"
