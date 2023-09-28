@@ -26,7 +26,31 @@
     "IWykYNRvhCZBN3vEgKEbBPOR3Oc2"
   ],
   "dependencies": [],
-  "eventsFunctions": [],
+  "eventsFunctions": [
+    {
+      "fullName": "or",
+      "functionType": "Condition",
+      "group": "testing",
+      "name": "Function",
+      "sentence": "",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::ForEach",
+          "object": "",
+          "conditions": [],
+          "actions": []
+        }
+      ],
+      "parameters": [
+        {
+          "description": "",
+          "name": "Parameter",
+          "type": "objectList"
+        }
+      ],
+      "objectGroups": []
+    }
+  ],
   "eventsBasedBehaviors": [
     {
       "description": "The finite state machine used internally by the button object.",

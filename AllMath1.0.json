@@ -23,8 +23,8 @@
     "name": "hud test implementation",
     "description": "",
     "author": "",
-    "windowWidth": 1920,
-    "windowHeight": 1080,
+    "windowWidth": 1280,
+    "windowHeight": 720,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 30,
@@ -163,39 +163,6 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/32x32 Fantasy Icons Pack v2/Icons/General Items/d628388642dfe60833e5b2f523b0e908b1336feddbb35e2b4eddb6951262f636_Hourglass_Shadow.png",
           "name": "Hourglass_Shadow.png"
         }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tiled_Grass7.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Grass7.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/490584f8c27e33df9b761fb334a7529c56ba733f29785c18f9fa65c5dab48bc9_tiled_Grass7.png",
-          "name": "tiled_Grass7.png"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tiled_Ground4.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "4be9859cceef6c04f89a8d9b01040ed390c02c7f371626a7cfe0376e9ac53589_tiled_Ground4.png",
-        "smoothed": true,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Tileable Ground Textures/4be9859cceef6c04f89a8d9b01040ed390c02c7f371626a7cfe0376e9ac53589_tiled_Ground4.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "file": "Enchanted Land.otf",
-        "kind": "font",
-        "metadata": "",
-        "name": "Enchanted Land.otf",
-        "userAdded": true
       }
     ],
     "resourceFolders": []
